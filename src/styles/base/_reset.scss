@@ -1,0 +1,82 @@
+/* base/_reset.scss */
+
+/* Box sizing border-box everywhere */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default fieldset border */
+fieldset {
+  border: 0;
+}
+
+/* Remove default button and input styling */
+button,
+input,
+select,
+textarea {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Make images responsive */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Anchor tag reset */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set base font size and smooth fonts */
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Enable keyboard focus outlines */
+:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
